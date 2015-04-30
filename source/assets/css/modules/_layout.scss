@@ -12,16 +12,17 @@
 }
 
 .wrapper {
-  overflow: hidden;
-  width:100%;
-  flex:1;
 }
+
 main {
-  background:$color-white;
+  background: $color-white;
+  flex: 1;
+  margin: 0 0 0 auto;
   overflow: hidden;
+  padding: $measure-unit $measure-unit $measure-unit * 3;
   position: relative;
+  width: 66.6%;
   z-index:1;
-  padding-bottom: $measure-unit * 3;
 }
 
 hr {
