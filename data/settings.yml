@@ -1,0 +1,9 @@
+########
+#   SETTINGS
+#   ================
+
+site_name: "Lyra"
+site_summary: "A blogging theme for Middleplate"
+
+# Index page
+index_show_summary: true
