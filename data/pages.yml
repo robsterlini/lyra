@@ -2,7 +2,6 @@
 #   PAGES BY DEFAULT
 #   ================
 #       - Home      (/)
-#       - Blog      (/blog)
 #       - Archive   (/archive)
 #
 #   OPTIONS
@@ -26,12 +25,6 @@ pages:
         nav:
             label: "Home"
             alt: "Go home"
-
-    ## Blog home
-    -   slug: "blog"
-        nav:
-            label: "Blog"
-            alt: "Read my blog"
 
     ## Archive
     -   slug: "archive"
