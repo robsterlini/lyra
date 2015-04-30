@@ -6,6 +6,10 @@ no_masthead: false
 priority: 1.0
 ---
 
+<h1><%= data.settings.site_name %></h1>
+<% if data.settings.index_show_summary %>
+	<p><%= data.settings.site_summary %></p>
+<% end %>
 <% if page_articles.count > 0 %>
   <h2>Recent journal posts</h2>
   <% posts_to_show = defined?(default_posts) ? default_posts : 5; page_articles.take(posts_to_show.to_i).each_with_index do |article, i| %>
