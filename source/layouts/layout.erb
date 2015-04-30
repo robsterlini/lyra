@@ -50,8 +50,10 @@
         </div>
       </div>
     <![endif]-->
-    <main class="wrapper">
-        <%= yield %>
+    <main>
+        <div class="wrapper">
+            <%= yield %>
+        </div>
     </main>
     <% if !current_page.data.no_footer %>
         <%= partial "partials/footer" %>
