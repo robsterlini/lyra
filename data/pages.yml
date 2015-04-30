@@ -25,6 +25,7 @@ pages:
         nav:
             label: "Home"
             alt: "Go home"
+            masthead: false
 
     ## Archive
     -   slug: "archive"

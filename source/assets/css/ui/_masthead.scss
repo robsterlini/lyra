@@ -17,6 +17,7 @@
 ========================================== */
 
 .masthead__logo {
+	display: block;
 	margin: $measure-unit * 2 auto $measure-unit;
 	max-width: $layout-max-width-unit;
 }
